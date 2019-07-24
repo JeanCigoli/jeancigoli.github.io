@@ -11,12 +11,18 @@ $botaoGira.addEventListener("click", () => {
         $SkillsFrente.style.transition = "all 1s";
         $SkillsTras.style.transform = "rotateX(0deg)";
         $SkillsTras.style.transition = "all 1s";
+
+        $botaoGira.innerHTML = "Voltar &#10008;"
+
         i = 1
     } else if(i = 1){
         $SkillsFrente.style.transform = "rotateX(0deg)";
         $SkillsFrente.style.transition = "all 1s";
         $SkillsTras.style.transform = "rotateX(90deg)";
         $SkillsTras.style.transition = "all 1s";
+
+        $botaoGira.innerHTML = "Veja mais &#10132;"
+
         i = 0;
     }
 
