@@ -364,6 +364,14 @@ label[for="bt_menu"]{
     }
 }
 
+#caixa_skills_back{
+    display: none;
+}
+
+#gira_button{
+    display: none;
+}
+
 /* body da página - PROJETO */
 
 #projeto{
