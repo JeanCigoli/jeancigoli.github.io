@@ -377,9 +377,15 @@ label[for="bt_menu"]{
     margin-left: 150px;
 }
 
-#gira{
-    width: 40px;
+.skills_gira{
+    width: 150px;
     cursor: pointer;
+    font-size: 20px;
+    color: #A1CDE6;
+}
+
+.skills_gira:hover{
+    text-decoration: underline;
 }
 
 #caixa_skills_back{
