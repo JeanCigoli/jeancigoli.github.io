@@ -253,43 +253,6 @@ label[for="bt_menu"] {
 
 /* body da página - FORMAÇÃO */
 
-.info {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
-  height: 180px;
-  background-color: #FFFFFF;
-  padding: 10px 25px;
-  line-height: 1;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.info::before {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #7fa3b6;
-  border: 3px solid #c3dae6;
-  position: absolute;
-  top: 80px;
-  left: -2px;
-}
-
-.info::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-color: transparent #0b4f73 transparent transparent;
-  border-width: 8px;
-  position: absolute;
-  left: 20px;
-  top: 80px;
-}
-
 #formacao {
   width: 100%;
   height: 650px;
@@ -323,13 +286,6 @@ label[for="bt_menu"] {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.formacao_data {
-  width: 100%;
-  height: 100%;
-  background-color: #7fa3b6;
-  margin-left: 30px;
 }
 
 /* body da página -SKILLS */
